@@ -4,6 +4,7 @@
 ## Web
 |      Challenge Name        |               CTF               | Difficulty        |
 |----------------------------|---------------------------------|-------------------|
+| Confidentiality            | 2021 - H@cktivityCon            | Easy              |
 
 
 ## Cryptography
