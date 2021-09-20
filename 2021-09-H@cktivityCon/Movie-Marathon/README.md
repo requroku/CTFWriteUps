@@ -1,11 +1,15 @@
-# HacktivityCon 2021 Write-up: Movie Marathon - Scripting
+# H@cktivityCon 2021 Write-up. Scripting - Movie Marathon
 
 ## Task details:
 Heard some bozo bragging about knowing more movies than anyone else? Could you put him in his place, please!
 
+| Value | Difficulty   |
+| ----- | ------------ |
+| 444   | Hard         |
+
 <br>
 
-## Write up:
+## Write-up:
 
 The first thing was to look at the output of the terminal after connecting via netcat.
 
