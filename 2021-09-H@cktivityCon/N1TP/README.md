@@ -27,20 +27,20 @@ NINA: Isn't that cool!?! Want to see it again?
 
 From the context of the challenge we can understand the applied encryption scheme here is a [One-Time Pad](https://en.wikipedia.org/wiki/One-time_pad).
 
-An **OTP** is cryptographically secure unless being re-used:
-$$C = M \oplus K$$ 
+An **OTP** is cryptographically secure unless being re-used:  
+![formula](https://render.githubusercontent.com/render/math?math=C=M%20\oplus%20K)
 
-If a one-time pad is used just twice, simple mathematical operations can reduce it to a running key cipher. For example, if $P_1$ and $P_2$ represent two distinct plaintext messages and they are each encrypted by a common key $K$, then the respective ciphertexts are given by:
+If a one-time pad is used just twice, simple mathematical operations can reduce it to a running key cipher. For example, if ![formula](https://render.githubusercontent.com/render/math?math=P_1) and ![formula](https://render.githubusercontent.com/render/math?math=P_2) represent two distinct plaintext messages and they are each encrypted by a common key ![formula](https://render.githubusercontent.com/render/math?math=K), then the respective ciphertexts are given by:  
 
-$ C_1 = P_1 \oplus K $
-$ C_2 = P_2 \oplus K $,
+![formula](https://render.githubusercontent.com/render/math?math=C_1=P_1%20\oplus%20K)  
+![formula](https://render.githubusercontent.com/render/math?math=C_2=P_2%20\oplus%20K),
 
-where $\oplus$ means **XOR**. If an attacker were to have both ciphertexts $C_1$ and $C_2$, then simply taking the **XOR** of $C_1$ and $C_2$ yields the **XOR** of the two plaintexts $P_1 \oplus P_2$. (This is because taking the **XOR** of the common key $K$ with itself yields a constant bitstream of zeros.)
+where ![formula](https://render.githubusercontent.com/render/math?math=\oplus) means **XOR**. If an attacker were to have both ciphertexts ![formula](https://render.githubusercontent.com/render/math?math=C_1) and ![formula](https://render.githubusercontent.com/render/math?math=C_2), then simply taking the **XOR** of ![formula](https://render.githubusercontent.com/render/math?math=C_1) and ![formula](https://render.githubusercontent.com/render/math?math=C_2) yields the **XOR** of the two plaintexts ![formula](https://render.githubusercontent.com/render/math?math=P_1%20\oplus%20P_2). (This is because taking the **XOR** of the common key ![formula](https://render.githubusercontent.com/render/math?math=K) with itself yields a constant bitstream of zeros.)
 
-Thus, the plaintext flag $F$ can be obtained by the following equation:
-$$ F = P \oplus P' \oplus F' $$
+Thus, the plaintext flag ![formula](https://render.githubusercontent.com/render/math?math=F) can be obtained by the following equation:  
+![formula](https://render.githubusercontent.com/render/math?math=F=P%20\oplus%20P'%20\oplus%20F')  
 
-where $P$ - is submitted plaintext, $P'$ - encrypted by **OTP** plaintext and $F'$ is the **OTP** encrypted flag.
+where ![formula](https://render.githubusercontent.com/render/math?math=P) - is submitted plaintext, ![formula](https://render.githubusercontent.com/render/math?math=P') - encrypted by **OTP** plaintext and ![formula](https://render.githubusercontent.com/render/math?math=F') - is the **OTP** encrypted flag.
 
 <br><br>
 
