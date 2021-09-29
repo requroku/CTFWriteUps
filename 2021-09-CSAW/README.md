@@ -17,8 +17,8 @@ Fri, 10 Sep. 2021, 20:00 UTC — Sun, 12 Sep. 2021, 20:00 UTC
   - [poem-collection](./poem-collection/README.md)
   - [Turing](./Turing/README.md)
 - #### Misc
-  - [Welcome](./#)
-  - [Weak Password](./Weak-Password/README.md)
+  - [Welcome](./misc_challenges.md#misc---welcome)
+  - [Weak Password](./misc_challenges.md#misc---weak-password)
 - #### Forensics
   - [Contact Us](./Contact-Us/README.md)
   - [Lazy Leaks](./Lazy-Leaks/README.md)
