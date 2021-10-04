@@ -14,6 +14,6 @@ Sat, 02 Oct. 2021, 13:00 UTC — Sun, 03 Oct. 2021, 13:00 UTC
 ## Completed challenges
 
 - #### misc
-  - [Sanity](#)
+  - [Sanity](./Sanity/README.md)
 - #### game
   - [Skull Island](./Skull-Island/README.md)
