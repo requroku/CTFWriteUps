@@ -1,4 +1,4 @@
-# H@cktivityCon 2021 Write-up. [misc] Sanity
+# TastelessCTF 2021 Write-up. [misc] Sanity
 
 ## Description:
 This challenge is locked down.
@@ -33,7 +33,7 @@ tstlss{tchoo-tchoo-flag-train}
 
 <br>
 
-And flag is:
+And the flag is:
 ```log
 tstlss{tchoo-tchoo-flag-train}
 ```
